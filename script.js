@@ -36,7 +36,7 @@ function threeA() {
 
 function start() {
     document.getElementById("init").classList.toggle("countdown");
-    document.querySelector(".countdown").innerHTML = '<h1>Time Left: <span id="timer">00:30</span></h3>'
+    document.querySelector(".countdown").innerHTML = '<h1>Time Left: <span id="timer">01:00</span></h3>'
     
     begin();
 }
