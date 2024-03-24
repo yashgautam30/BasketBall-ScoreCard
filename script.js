@@ -56,7 +56,7 @@ function announceWinner() {
 let interval;
 
 function begin() {
-    let countDownDate = new Date().setSeconds(new Date().getSeconds() + 31);
+    let countDownDate = new Date().setSeconds(new Date().getSeconds() + 61);
 
     interval = setInterval(() => {
         let now = new Date().getTime();
